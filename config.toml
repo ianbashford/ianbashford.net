@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://ianbashford.net/"
 languageCode = "en-uk"
 title = "Ian Bashford"
 theme = "hugo-smpl-theme"
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = "UA-XXXXXXXX-1"
+googleAnalytics = "UA-27640682-1"
 
 [params]
   # You can use Markdown for urls [text](//domain.tld/source)
@@ -30,7 +30,7 @@ googleAnalytics = "UA-XXXXXXXX-1"
   # Logo section
   [params.logo]
     enable = true
-    image = "assets/img/ian2.png"
+    image = "assets/img/ian2.jpg"
     alt = "ianbashford"
     width = "100"
 
