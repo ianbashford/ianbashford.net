@@ -30,7 +30,7 @@ googleAnalytics = "UA-27640682-1"
   # Logo section
   [params.logo]
     enable = true
-    image = "assets/img/ian2.jpg"
+    image = "assets/img/ian2.png"
     alt = "ianbashford"
     width = "100"
 
