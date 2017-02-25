@@ -1,84 +1,10 @@
-# Site settings
-baseurl = "https://ianbashford.net/"
-languageCode = "en-uk"
-title = "Ian Bashford"
-theme = "hugo-smpl-theme"
-
-# Enter your tracking code to enable Google analytics
-googleAnalytics = "UA-27640682-1"
+baseurl = "http://ianbashford.net/"
+title = "ian bashford"
+author = "ian bashford"
+copyright = "Copyright (c) 2017, ian bashford; all rights reserved."
+canonifyurls = true
+paginate = 3
 
 [params]
-  # You can use Markdown for urls [text](//domain.tld/source)
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons.
-
-  # To provide more meta data for search engines feel free to add a few information.
-  # This lines will be inserted as meta tags.
-  name = "Ian Bashford"
-  description = "Your Description"
-
-  # Background
-  [params.background]
-    image = "assets/img/bg.jpg"
-
-    # Enable and set background fade speed
-    [params.background.fade]
-      enable = true
-      speed = 500
-
-  # Logo section
-  [params.logo]
-    enable = true
-    image = "assets/img/ian2.png"
-    alt = "ianbashford"
-    width = "100"
-
-  # Header section
-  [params.header]
-    enable = true
-    title = "Ian<br>Bashford"
-
-  # Quote section
-  [params.quote]
-    enable = false
-    text = "Something"
-
-  # Social icons section
-  [params.social_icons]
-    enable = true
-
-#  [[params.social]]
-#    title = "Dribbble"
-#    icon = "fa-dribbble"
-#    link = "http://dribbble.com/CarlosAlvarez"
-
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "http://twitter.com/eanu"
-
-#  [[params.social]]
-#    title = "Premium Themes"
-#    icon = "fa-briefcase"
-#    link = "https://wrapbootstrap.com/user/Basicoh"
-
-#  [[params.social]]
-#    title = "Free Themes"
-#    icon = "fa-heart"
-#    link = "http://BlackTie.co"
-
-#  [[params.social]]
-#    title = "Blog"
-#    icon = "fa-comment"
-#    link = "http://freelance.postach.io"
-
-#  [[params.social]]
-#    title = "Email Me!"
-#    icon = "fa-envelope"
-#    link = "mailto:carlos@alvarez.is"
-
-#  [[params.social]]
-#    title = "Newsletter"
-#    icon = "fa-coffee"
-#    link = "http://eepurl.com/Eck_T"
+    author = "ian bashford"
+    locale = "en-US"
