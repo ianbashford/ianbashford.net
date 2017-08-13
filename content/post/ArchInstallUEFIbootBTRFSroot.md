@@ -42,6 +42,10 @@ arch-chroot /mnt
 /boot will hold the EFI boot files.  This makes it easy to reference the kernel in the refind config, and keep it updated with no extra effort 
 
 refind.conf requires a manual entry, as we need to specify the root BTRFS subvolume
+to get the PARTUUID use
+```bash
+blkid /dev/sda3
+```
 
 
 ```bash
@@ -54,7 +58,7 @@ cp -r /usr/share/refind/drivers_x64/ /boot/EFI/Boot/
 scanfor manual
 timeout 1 # -1 for immediate
 menuentry "Blah" {
-  loader vmlinux-linux
+  loader vmlinuz-linux
   initrd initramfs-linux.img
   options "root=PARTUUID=XX rw rootflags=subvol=@root add_efi_memmap"
 }
