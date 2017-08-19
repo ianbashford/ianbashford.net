@@ -31,7 +31,7 @@ Finally, I added the oroot directive to the kernel options - mine are in refind.
 menuentry "Arch Linux SSD to Ram" {
   loader vmlinuz-linux
   initrd initramfs-linux.img
-  options "root=PARTUUID=0bac1068-0c23-4563-835d-7ada1e0ad1f0 oroot=compressed rw rootflags=subvol=@root add_efi_memmap"
+  options "root=PARTUUID=0bac1068-0c23-4563-835d-7ada1e0ad1f0 oroot=live rw rootflags=subvol=@root add_efi_memmap"
 }
 ```
 
