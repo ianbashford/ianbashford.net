@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.ianbashford.net/"
 #themesDir = "../.."
 languageCode = "en-us"
 theme = "light-hugo"
