@@ -50,6 +50,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'cjrh/vim-conda' 
 Plugin 'davidhalter/jedi-vim'
+Plugin 'nvie/vim-flake8'
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
 
@@ -60,6 +61,10 @@ filetype plugin indent on    " required
 Vundle will install after you start vim and type
 ```sh
 :PluginInstall
+```
+and install flake8 with 
+```sh
+pip install flake8
 ```
 ### test your conda 
 ```sh
