@@ -1,17 +1,42 @@
 baseurl = "https://www.ianbashford.net/"
-#themesDir = "../.."
 languageCode = "en-us"
-theme = "light-hugo"
+theme = "temple"
 
 title = "snips"
-author = "ian"
 copyright = "© Copyright 2016 ian"
 
-[Params]
-  description = ""
+#[Params]
+# description = ""
 #  email = "john@example.org"
 #  github = "tblyler"
-  twitter = "eanu"
+#  twitter = "eanu"
 #  linkedin = "johndoe"
 #  facebook = "johndoe" 
-  logo = "/images/ian_round.png"
+#  logo = "/images/ian_round.png"
+
+[params]
+  # Enables syntax highlighting
+  highlight = true 
+
+  # Supports highlighting for languages not included in the original pack
+  # See https://highlightjs.org/download/ for what's included in original pack
+  # For reference to all languages, see:
+  # https://github.com/isagalaev/highlight.js/tree/master/src/languages
+  hjslangs = ["go", "vim"]
+
+  # Enables the topmenu, which pulls from categories
+  topmenu = "categories"
+
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[author]
+  name = "snips"
+  #github = "ianbashford"
+  #email = "your@email.com"
+  #gaid = "Your Google Analytics ID"
+  twitter = "eanu"
+#  medium = "mediumUsername"
+
