@@ -44,7 +44,8 @@ Then run a script that looks like this:
 ```
 NOTES: dnscrypt-proxy makes https calls, so it needs access to ca-certificates in a well known path. 
 NOTES: cheating here by copying it all into root folder, and renaming the binary 'inito' so it's automatically run -could be neater
-That generates a file initramfs.linux_amd64.cpio in /tmp  (you can redirect that to some other file).  
+
+Those commands generate a file initramfs.linux_amd64.cpio in /tmp  (you can redirect that to some other file).  
 To run in xen, grab your kernel from /boot, and create a xen config file - this is for an Alpine PV host... vi uroot.cfg
 ```sh
 # Kernel paths for install
