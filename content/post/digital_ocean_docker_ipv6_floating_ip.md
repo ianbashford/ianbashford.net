@@ -1,7 +1,7 @@
 +++
-title: "Docker in IPV4 and IPV6 on Digital Ocean with a floating IP address"
-date: "2018-08-21T21:53:52Z"
-draft: "false"
+title = "Docker in IPV4 and IPV6 on Digital Ocean with a floating IP address"
+date = "2018-08-21T21:53:52Z"
+draft = "false"
 
 +++
 ### Intro
