@@ -1,10 +1,9 @@
----
++++
+title: "Docker in IPV4 and IPV6 on Digital Ocean with a floating IP address"
 date: 2018-08-21T21:53:52Z
-type: 
 draft: false
----
-## Docker in IPV4 and IPV6 on Digital Ocean with a floating IP address
 
++++
 ### Intro
 With a floating IPV4 address, the traffic comes into the droplet via the anchor ip address.  This is a private IP address in the 10.0.0.0 network.
 Docker options setup IPV4 and IPV6 neatly, then the default route needs adjusting, otherwise traffic is routed out via the droplets IP address
