@@ -14,8 +14,9 @@ Depending on your linux variant, you'll need to set some DOCKER_OPTS options.
 2. Determine the IPV6 subnet
 3. Add DOCKER_OPTS
 
-##### Determine the anchor IP address
+##### Determine the anchor IP address and Gateway
 ```
+curl -s http://169.254.169.254/metadata/v1/interfaces/public/0/anchor_ipv4/address
 curl -s http://169.254.169.254/metadata/v1/interfaces/public/0/anchor_ipv4/gateway
 ```
 
