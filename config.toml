@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "temple"
 
 title = "snips"
-copyright = "© Copyright 2016 ian"
+copyright = "© Copyright 2019 ian"
 
 #[Params]
 # description = ""
@@ -36,7 +36,7 @@ copyright = "© Copyright 2016 ian"
   name = "snips"
   #github = "ianbashford"
   #email = "your@email.com"
-  #gaid = "Your Google Analytics ID"
+  #gaid = "UA-27640682-1"
   twitter = "eanu"
 #  medium = "mediumUsername"
 
