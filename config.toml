@@ -1,22 +1,22 @@
 baseurl = "https://www.ianbashford.net/"
 languageCode = "en-us"
-theme = "temple"
+theme = "solar-theme-hugo"
 
+pygmentsStyle = "solarized-dark"
 title = "snips"
 copyright = "© Copyright 2019 ian"
 
-#[Params]
-# description = ""
-#  email = "john@example.org"
-#  github = "tblyler"
-#  twitter = "eanu"
-#  linkedin = "johndoe"
-#  facebook = "johndoe" 
-#  logo = "/images/ian_round.png"
+[menu]
+  [[menu.main]]
+    name = "RSS Feed"
+    url = "/index.xml"
+
 
 [params]
   # Enables syntax highlighting
   highlight = true 
+  scheme = "dark" # light, dark, gray or preference
+  description = "snips"
 
   # Supports highlighting for languages not included in the original pack
   # See https://highlightjs.org/download/ for what's included in original pack
