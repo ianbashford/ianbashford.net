@@ -1,6 +1,7 @@
 baseurl = "https://www.ianbashford.net/"
 languageCode = "en-us"
 theme = "solar-theme-hugo"
+googleAnalytics = "UA-27640682-1"
 
 pygmentsStyle = "solarized-dark"
 title = "snips"
