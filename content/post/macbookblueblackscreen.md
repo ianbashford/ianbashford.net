@@ -37,3 +37,5 @@ Back into Single User Mode - CMD-S held down on boot.  When you see the terminal
 csrutil enable
 reboot
 ```
+
+src: https://grafxflow.co.uk/blog/mac-os-x/macbook-pro-2011-defective-gpu-fix
