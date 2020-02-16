@@ -32,7 +32,7 @@ sudo nvram fa4ce28d-b62f-4c99-9cc3-6815686e30f9:gpu-power-prefs=%01%00%00%00
 reboot
 ```
 
-Back into Single User Mode - CMD-S held down on boot.  When you see the terminal, hit enter a couple of times to get the prompt.  Then run:
+Back into Recovery Mode - CMD-R held down on boot.  Choose the right language, then under the Utilities menu, start a terminal and type:
 ```
 csrutil enable
 reboot
