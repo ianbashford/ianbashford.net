@@ -1,7 +1,7 @@
-baseURL = "https://ianbashford.net/"
+baseURL = "http://localhost:1313/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Snips"
+title = "Even - A super concise theme for Hugo"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -15,13 +15,13 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 20                                              # 首页每页显示的文章数
+paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = "UA-27640682-1"      # UA-XXXXXXXX-X
-copyright = "snips..."            # default: author.name ↓        # 默认为下面配置的author.name ↓
+googleAnalytics = ""      # UA-XXXXXXXX-X
+copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "eanu"
+  name = "olOwOlo"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -38,16 +38,16 @@ copyright = "snips..."            # default: author.name ↓        # 默认为�
   weight = 20
   identifier = "archives"
   url = "/post/"
-#[[menu.main]]
-#  name = "Tags"
-#  weight = 30
-#  identifier = "tags"
-#  url = "/tags/"
-#[[menu.main]]
-#  name = "Categories"
-#  weight = 40
-#  identifier = "categories"
-#  url = "/categories/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
@@ -59,9 +59,9 @@ copyright = "snips..."            # default: author.name ↓        # 默认为�
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Snips"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["bashford", "ianbashford","eanu"]
-  description = "Snips..."
+  logoTitle = "Even"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","even"]
+  description = "Hugo theme even example site."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 50
@@ -179,21 +179,21 @@ copyright = "snips..."            # default: author.name ↓        # 默认为�
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-#    a-email = "mailto:your@email.com"
-#    b-stack-overflow = "http://localhost:1313"
-#    c-twitter = "http://localhost:1313"
-#    d-facebook = "http://localhost:1313"
-#    e-linkedin = "http://localhost:1313"
-#    f-google = "http://localhost:1313"
-#    g-github = "http://localhost:1313"
-#    h-weibo = "http://localhost:1313"
-#    i-zhihu = "http://localhost:1313"
-#    j-douban = "http://localhost:1313"
-#    k-pocket = "http://localhost:1313"
-#    l-tumblr = "http://localhost:1313"
-#    m-instagram = "http://localhost:1313"
-#    n-gitlab = "http://localhost:1313"
-#    o-bilibili = "http://localhost:1313"
+    a-email = "mailto:your@email.com"
+    b-stack-overflow = "http://localhost:1313"
+    c-twitter = "http://localhost:1313"
+    d-facebook = "http://localhost:1313"
+    e-linkedin = "http://localhost:1313"
+    f-google = "http://localhost:1313"
+    g-github = "http://localhost:1313"
+    h-weibo = "http://localhost:1313"
+    i-zhihu = "http://localhost:1313"
+    j-douban = "http://localhost:1313"
+    k-pocket = "http://localhost:1313"
+    l-tumblr = "http://localhost:1313"
+    m-instagram = "http://localhost:1313"
+    n-gitlab = "http://localhost:1313"
+    o-bilibili = "http://localhost:1313"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
