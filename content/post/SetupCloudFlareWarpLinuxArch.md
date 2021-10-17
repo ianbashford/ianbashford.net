@@ -1,7 +1,7 @@
 ---
 title: "Setup CloudFlare Warp on Linux (Arch)"
 date: 2020-08-15T14:02:43Z
-lastmod: 2020-08-15T14:02:43Z
+lastmod: 2021-10-17T10:02:43Z
 draft: false
 keywords: [cloudflare, 1.1.1.1, warp, archlinux]
 description: ""
@@ -39,6 +39,11 @@ sequenceDiagrams:
   options: ""
 
 ---
+
+# Update Available
+There's an updated version of this post [SetupCloudFlareWarpLinuxArch_Update](/post/setupcloudflarewarplinuxarch_update/)
+
+# Original Content
 
 Warp's a free VPN offered by Cloudflare -- see [Cloudflare](https://1.1.1.1/) 
 Clients are currently available for Android and IOS, with OSX and Windows in beta [Warp Beta](https://1.1.1.1/beta/)
